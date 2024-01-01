@@ -30,6 +30,13 @@ export default function CreateContact({ connectionId }) {
       // Optionally, invoke a no-connection callback or state update here
     }
   };
+  if (!connectionId) {
+    return (
+      <div>
+        <p>Please complete Step 1 to connect an app before adding contacts.</p>
+      </div>
+    );
+  }
 
   return (
     <div className={styles.formContainer}>

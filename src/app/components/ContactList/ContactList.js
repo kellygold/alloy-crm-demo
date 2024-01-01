@@ -29,6 +29,14 @@ export default function ContactList({ connectionId }) {
     fetchContacts();
   }, [connectionId]);
 
+  if (!connectionId) {
+    return (
+      <div className={styles.contactList}>
+        <p>Please complete Step 1 to connect an app and view contacts.</p>
+      </div>
+    );
+  }
+
   return (
     <div className={styles.contactList}>
       <h2 className={styles.title}>Contacts</h2>

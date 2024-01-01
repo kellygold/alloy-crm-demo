@@ -29,11 +29,11 @@ export default function Home() {
       </section>
       <section>
         <h2>Step 2: List Contacts</h2>
-        {connectionId && <ContactList connectionId={connectionId} />}
+        <ContactList connectionId={connectionId} />
       </section>
       <section>
         <h2>Step 3: Create a Contact</h2>
-        {connectionId && <CreateContact connectionId={connectionId} />}
+        <CreateContact connectionId={connectionId} />
       </section>
     </div>
   );
