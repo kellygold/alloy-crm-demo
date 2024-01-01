@@ -2,7 +2,6 @@
 import axios from 'axios';
 import os from 'os';
 
-//const YOUR_API_KEY = '0x5PHt4vOVNXCCvy95ykS'; // Replace with your actual API key
 const YOUR_API_KEY = process.env.ALLOY_API_KEY;
 
 export default async function handler(req, res) {
