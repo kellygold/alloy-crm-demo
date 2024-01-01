@@ -1,0 +1,23 @@
+/* styles/ContactList.module.css */
+.listContainer {
+    margin: 2rem;
+  }
+  
+  .contactItem {
+    padding: 0.5rem;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .refreshButton {
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+  
+  .refreshButton:hover {
+    background-color: #e4e4e4;
+  }
+  
